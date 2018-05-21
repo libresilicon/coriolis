@@ -39,6 +39,8 @@ version.
 Building Coriolis
 =================
 
+Build has been successfully testet on Ubuntu 14.04.5 LTS with g++-4.8.4. Does not build on Ubuntu 16.04 LTS and not on Ubuntu 18.04 LTS. Please consult "buildhistory" file.
+
 To build Coriolis, ensure the following prerequisites are met:
 
 * Python 2.7.

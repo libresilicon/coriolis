@@ -1,0 +1,77 @@
+    1  sudo apt install libxml2-dev htop git vim libboost-all-dev build-essential cmake libqt4-dev
+    2  mkdir -p ~/coriolis-2.x/src/support
+    3  cd ~/coriolis-2.x/src
+    4  git clone https://www-soc.lip6.fr/git/coriolis.git
+    5  make -j install
+    6  cd coriolis/
+    7  make -j install
+    8  make -v -j install
+    9  make -j install
+   10  sudo apt install bison flex doxygen
+   11  make -j install
+   12  apt search smart
+   13  apt search smart | greo graph
+   14  apt search smart | grep graph
+   15  apt search lemon
+   16* sudo apt install 
+   17  make -j install
+   18  apt search lemon
+   19  cd
+   20  git clone http://lemon.cs.elte.hu/trac/lemon/wiki/Downloads
+   21  wget -c http://lemon.cs.elte.hu/pub/sources/lemon-1.3.1.tar.gz
+   22  tar xvf lemon-1.3.1.tar.gz 
+   23  cd lemon-1.3.1/
+   24  ls
+   25  make -j install
+   26  mkdir build
+   27  cd build/
+   28  cmake ..
+   29  sudo apt install libpthread-workqueue-dev 
+   30  cmake ..
+   31  sudo apt install libglpk-dev 
+   32  cmake ..
+   33  sudo apt search splex
+   34  sudo apt search cplex
+   35* sudo apt search
+   36  cmake ..
+   37  cd ..
+   38  wget http://lemon.cs.elte.hu/pub/sources/lemon-1.0.7.zip
+   39  unzip lemon-1.0.7.zip 
+   40  cd lemon-1.0.7/
+   41  ls
+   42  ./configure 
+   43  make -j && make install
+   44  make -j && sudo make install
+   45  cd ..
+   46  cd coriolis-2.x/src/coriolis/
+   47  make -j install
+   48  cd ..
+   49  cd lemon-1.3.1/
+   50  ls
+   51  cd ..
+   52  wget http://lemon.cs.elte.hu/pub/sources/lemon-1.1.6.zip
+   53  unzip lemon-1.1.6.zip 
+   54  cd lemon-1.1.6/
+   55  ls
+   56  ./configure && make -j && sudo make install
+   57  cd ..
+   58  cd coriolis-2.x/src/coriolis/
+   59  make -j install
+   60  sudo apt install latex209-bin 
+   61  make -j install
+   62  sudo apt install graphviz
+   63  make -j install
+   64  sudo apt install latex2html 
+   65  make -j install
+   66  apt search imagemagick
+   67  sudo apt install graphicsmagick
+   68  apt search imagemagick
+   69  make -j install
+   70  apt search imagemagick
+   71  sudo apt install imagemagick
+   72  make -j install
+   73  sudo apt search rst2html
+   74  sudo apt search docutils
+   75  sudo apt install rest2web
+   76  make -j install
+   77  history > buildhistory
